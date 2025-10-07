@@ -15,3 +15,4 @@ To get started, follow these steps:
 1. Clone the repository
 2. Install dependencies using `npm install`
 3. Start the development server using `npm run dev`
+4. Run `php -S localhost:5173` make sure you have already installed PHP
