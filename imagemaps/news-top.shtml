@@ -1,0 +1,15 @@
+<div class="news">
+	<!--#include virtual="/invar/ssi-common/news-top.shtml"-->
+</div>
+
+    <div class="col-lg-12 live-link">
+		<div class="hotline-banner-img">
+		<img src="/invar/ssi-common/contact/hotline-banner.png" class="img-responsive" alt="Cebu Women Hotline Number and Details" title="cebu women direct number" />
+		</div>
+
+		<div class="mobile-hotline-banner-img">
+		<img src="/invar/ssi-common/contact/hotline-banner-mobile.png" class="img-responsive" alt="Cebu Women Hotline and Direct Advice Number" title="cebu women hotline" />
+		</div>
+
+		<p><b><a href="/ronna-lou-live.html">LIVE Show <!--#include virtual="/invar/ssi-common/livestream/next-show-wednesday.shtml" --> | Philippine Matchmaker Ronna Lou LIVE (click here)</a></b></p></p>
+    </div>

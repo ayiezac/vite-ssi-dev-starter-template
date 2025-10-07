@@ -1,0 +1,151 @@
+<style>
+    #scroll-driven-nav {
+        top: -20rem;
+        transition: all 0.3s ease-in-out;
+        content-visibility: auto;
+        height: 12rem;
+        content-visibility: auto;
+    }
+
+    @media (max-width: 1024px) {
+        #scroll-driven-nav {
+            display: none;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        #scroll-driven-nav {
+            display: none;
+        }
+    }
+
+    #scroll-driven-nav>div {
+        max-width: 160rem;
+    }
+
+    #scroll-driven-nav div#P_masterslider {
+        position: relative !important;
+        top: -6px !important;
+    }
+
+    @media (max-width: 1024px) {
+        #scroll-driven-nav div#P_masterslider div.ms-staff-carousel .ms-nav-prev {
+            left: -15px !important;
+        }
+
+        #scroll-driven-nav div#P_masterslider div.ms-staff-carousel .ms-nav-next {
+            right: -15px !important;
+        }
+    }
+
+    #scroll-driven-nav [data-id=btnCtaStateContainer] a span {
+        text-wrap: balance;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #scroll-driven-nav button[data-target="#quickSearchFormModal"] span:nth-child(1) {
+        text-wrap: balance;
+    }
+
+    #scroll-driven-nav button[data-target="#quickSearchFormModal"] span:nth-child(2) {
+        padding-block: 2.1rem;
+    }
+</style>
+<nav id="scroll-driven-nav"
+    class="navbar navbar-expand-lg position-fixed mx-auto z-3 w-100 bg-white shadow-sm d-lg-none d-md-none d-sm-none d-xl-block">
+    <div class="container-fluid h-100">
+        <div class="d-flex align-items-center w-100 justify-content-between column-gap-3 h-100">
+            <div class="col">
+                <div class="d-flex gap-5 align-items-center">
+                    <div>
+                        <button type="button"
+                            class="mb-0 d-flex flex-column justify-content-around align-items-center text-decoration-none btn-link w-100" data-class="btnOffCanvas" aria-controls="offcanvasMenu">
+                            <div class="fw-medium fs-3 text-dark">Menu</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="15" viewBox="0 0 36 9"
+                                fill="none">
+                                <path
+                                    d="M34.875 6H1.125C0.50625 6 0 6.3375 0 6.75V8.25C0 8.6625 0.50625 9 1.125 9H34.875C35.4938 9 36 8.6625 36 8.25V6.75C36 6.3375 35.4938 6 34.875 6ZM34.875 0H1.125C0.50625 0 0 0.3375 0 0.75V2.25C0 2.6625 0.50625 3 1.125 3H34.875C35.4938 3 36 2.6625 36 2.25V0.75C36 0.3375 35.4938 0 34.875 0Z"
+                                    fill="#000">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div>
+                        <a href="/">
+                            <img fetchpriority="low" loading="lazy" width="275" height="75" class="img-fluid"
+                                src="/img/manila-women-logo.png" alt="Logo" title="Logo">
+                        </a>
+                    </div>
+                </div>
+                <menu class="list-group list-group-horizontal shadow-none d-flex">
+                    <li class="list-group-item border-0">
+                        <a class="link-body-emphasis fw-medium text-nowrap fs-4" href="/">Home</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-body-emphasis fw-medium text-nowrap fs-4"
+                            href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">Tour
+                            Schedule</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-body-emphasis fw-medium text-nowrap fs-4"
+                            href="/new-manila-women.html">Newest Ladies
+                            Profiles</a>
+                    </li>
+                </menu>
+            </div>
+            <div id="P_masterslider" class="master-slider-parent ms-staff-carousel ms-parent-id-49 mt-3 mb-0 col">
+                <div id="masterslider" class="master-slider ms-skin-default w-75 mx-auto">
+
+                    <!--#include virtual="/imagemaps/manila-women-rotator-v3.php" -->
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex gap-3 align-items-center justify-content-end">
+                    <div>
+                        <button type="button"
+                            class="mb-0 bg-transparent border d-flex align-items-center gap-3 p-3 rounded-pill bg-body-tertiary"
+                            data-bs-toggle="modal" data-bs-target="#quickSearchFormModal">
+                            <span class=" fs-4">Search Women's ID or Use Advance
+                                Search</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div data-id="btnCtaStateContainer">
+                        <div class="placeholder-glow">
+                            <a class="btn btn-secondary disabled placeholder rounded-pill" aria-disabled="true" style="width: 22rem; height: 6.5rem;"></a>
+                        </div>
+                    </div>
+                </div>
+                <menu class="list-group list-group-horizontal shadow-none d-flex mt-0 justify-content-end">
+                    <li class="list-group-item border-0">
+                        <a class="link-body-emphasis fw-medium text-nowrap fs-4" href="/women/philippines/philippines-women.htm">All Ladies Profiles</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a href="#toggle-our-services" class="link-body-emphasis fw-medium text-nowrap fs-4"
+                            role="button" aria-expanded="false">
+                            Our Services
+                            <svg id="mega-menu-caret" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down">
+                                <path d="m6 9 6 6 6-6" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0" data-id='desktop-uLogin'>
+                        <div class="placeholder-glow">
+                            <a class="bg-secondary placeholder" style="width: 13rem;"></a>
+                        </div>
+                    </li>
+                </menu>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--#include virtual="./mega-menu-for-show-hide-nav.shtml"  -->

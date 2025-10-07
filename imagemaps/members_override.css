@@ -1,0 +1,85 @@
+/* Start Override CSS */
+
+.BOX-Line-Main {
+	box-shadow: 5px 5px 5px #91a3a5;
+}
+
+.top_menu_container .navbar {
+	background-color: #fc4f4f !important;
+}
+
+.top_menu_container .dropdown-menu {
+	 background-color: #053e8b !important;
+}
+
+.top_menu_container .navbar-nav a.nav-link:hover, .top_menu_container .dropdown-menu a.dropdown-item:hover {
+	background-color: #fff;
+    color: #404040;
+}
+.dropdown-item:focus {
+	background-color: #0067cc;
+}
+
+.list-group-item.active {
+	background-color: #053e8b !important;
+}
+
+h1, h1.display_title, h2 {
+	color: #053e8b;
+    font-weight: bold;
+}
+
+.btn, button {
+	border: none;
+    background: #053e8b;
+}
+
+.btn:hover, button:hover {
+	background-image: none;
+    background-color: #e8a540;
+}
+
+.intro_regions {
+	background: #d3e6e8;
+    border: 2px solid #772626;
+}
+
+.intro_regions ul.regions_list>li {
+	border-bottom: 2px solid #772626;
+}
+
+.intro_regions hr {
+	border-bottom: 2px solid #772626;
+}
+
+p, code, pre {
+	font-size: 13px;
+    line-height: 25px;
+    margin: 10px 0 10px 0;
+}
+
+.default_photo {
+	background-color: #772626 !important;
+	width: 110px !important;
+}
+
+
+/* End Override CSS */
+
+
+/* Start Override CSS for register page */
+
+.ajax_content select[name="prf_seeking"] {
+    /* Your CSS styles here */
+    display: none !important;
+}
+
+.ajax_content label[for="prf_seeking"] {
+    /* Your CSS styles here */
+    display: none !important;
+}
+
+.hint_required {
+    font-size: 12px;
+}
+/* End Override CSS for register page */

@@ -1,0 +1,79 @@
+<div class="container-fluid py-3 d-xl-block d-none" id="desktop-nav-container">
+    <nav class="d-flex align-items-center justify-content-between">
+        <div class="d-flex gap-5 align-items-center">
+            <div>
+                <a role="button"
+                    class="mb-0 d-flex flex-column justify-content-around align-items-center text-decoration-none" href="#offcanvasMenu" data-class="btnOffCanvas" aria-controls="offcanvasMenu"
+                    style="color: #000 !important;">
+                    <div class="fw-medium fs-3">Menu</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="15" viewBox="0 0 36 9" fill="none">
+                        <path
+                            d="M34.875 6H1.125C0.50625 6 0 6.3375 0 6.75V8.25C0 8.6625 0.50625 9 1.125 9H34.875C35.4938 9 36 8.6625 36 8.25V6.75C36 6.3375 35.4938 6 34.875 6ZM34.875 0H1.125C0.50625 0 0 0.3375 0 0.75V2.25C0 2.6625 0.50625 3 1.125 3H34.875C35.4938 3 36 2.6625 36 2.25V0.75C36 0.3375 35.4938 0 34.875 0Z"
+                            fill="#000">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <div>
+                <a class="d-block" href="/">
+                    <img fetchpriority="high" width="275" height="75" src="/img/manila-women-logo.png" class="img-fluid" alt="Logo" title="Logo">
+                </a>
+            </div>
+        </div>
+        <div class="d-flex gap-3 align-items-center">
+            <div>
+                <button type="button" class="mb-0 bg-transparent border-0 d-flex align-items-center gap-2 w-100" data-bs-toggle="modal" data-bs-target="#quickSearchFormModal">
+                    <span class="border p-3 rounded-start-5 bg-body-tertiary">Search Women's ID or Use Advance
+                        Search</span>
+                    <span class="border p-3 rounded-end-5 bg-body-tertiary">Go</span>
+                </button>
+            </div>
+            <div data-id="btnLogStateContainer">
+                <div class="placeholder-glow">
+                    <a class="btn btn-secondary disabled placeholder rounded-pill" aria-disabled="true" style="width: 26rem; height: 4.6rem;"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav>
+        <ul class="d-flex justify-content-end list-unstyled mb-0 p-3 gap-md-5 gap-3 align-items-center">
+            <li class="nav-item">
+                <a href="/" class="nav-link link-body-emphasis fs-4 fw-medium">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item position-static">
+                <a href="#mega-dropdown-content2" class="nav-link link-body-emphasis fs-4 fw-medium" role="button"
+                    aria-expanded="false">
+                    Our Services
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-chevron-down">
+                        <path d="m6 9 6 6 6-6" />
+                    </svg>
+                </a>
+                <!--#include virtual="./mega-menu.shtml"  -->
+            </li>
+            <li class="nav-item">
+                <a href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html" class="nav-link link-body-emphasis fs-4 fw-medium">
+                    Tour Schedule
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/new-manila-women.html" class="nav-link link-body-emphasis fs-4 fw-medium">
+                    Newest Ladies Profiles
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="/women/philippines/philippines-women.htm" class="nav-link link-body-emphasis fs-4 fw-medium">
+                    All Ladies Profiles
+                </a>
+            </li>
+            <li class="nav-item d-flex align-items-center" data-id="desktop-uLogin">
+                <div class="placeholder-glow">
+                    <a class="bg-secondary placeholder" style="width: 14rem;"></a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>

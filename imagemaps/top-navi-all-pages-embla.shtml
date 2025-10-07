@@ -1,0 +1,6 @@
+<!--#include virtual="/imagemaps/assets-resource.shtml"  -->
+<header>
+  <!--#include virtual="/imagemaps/desktop-nav.shtml"  -->
+  <!--#include virtual="/imagemaps/mobile-nav.shtml"  -->
+</header>
+<!--#include virtual="/imagemaps/show-hide-nav-embla.shtml"  -->

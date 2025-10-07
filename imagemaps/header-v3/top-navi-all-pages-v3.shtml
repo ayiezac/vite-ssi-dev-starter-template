@@ -1,0 +1,6 @@
+<!--#include virtual="./assets-resource.shtml"  -->
+<header>
+    <!--#include virtual="./desktop-nav.shtml"  -->
+    <!--#include virtual="./mobile-nav.shtml"  -->
+</header>
+<!--#include virtual="./show-hide-nav.shtml"  -->

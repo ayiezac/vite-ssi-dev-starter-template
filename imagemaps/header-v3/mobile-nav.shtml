@@ -1,0 +1,453 @@
+<div id="mobile-navbar-container" class="d-xl-none">
+    <nav id="mobile-navbar" class="container-fluid pt-3 fixed-top bg-white shadow-sm"
+        style="transition: top 0.5s ease-in-out;">
+        <div class="d-flex align-items-center gap-2 justify-content-between">
+            <div class="d-flex align-items-center column-gap-2">
+                <a class="link-body-emphasis" role="button" data-bs-toggle="offcanvas" href="#mobileMenu"
+                    aria-controls="mobileMenu">
+                    <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </a>
+                <img fetchpriority="high" width="40" height="40" src="/img/MANILA-WOMEN-ICON.webp" alt="Logo" title="Logo"
+                    alt="logo" decoding="async">
+            </div>
+            <div class="d-flex align-items-center column-gap-2">
+                <a data-id="userMobileSignState" href="#"
+                    class="link-dark d-flex align-items-center fw-semibold column-gap-1 w-100"></a>
+                <a href="#" data-id="cta-signup-modal" role="button"></a>
+            </div>
+        </div>
+        <div class="my-3">
+            <div class="container__search" role="button" data-bs-toggle="modal" data-bs-target="#quickSearchFormModal">
+                <input type="button" class="bg-body-secondary text-secondary" id="search__ladies__profile"
+                    value="Search Ladies Profile">
+                <button class="search__btn bg-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22">
+                        <path
+                            d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z"
+                            fill="#efeff1"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="overflow-auto pb-3" style="white-space: nowrap;">
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4" href="/">Home</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4"
+                href="/execu/professional-matchmaker-plan.html">Executive Plan</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4" href="/order-form/imbra-order-form.html">Imbra
+                Request</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4" href="/asian_club/">Individual Club Tour</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4"
+                href="/information/how-to-correspond-with-women.html">Platinum Upgrade</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4" href="/fiancee-visa/">Fiancee Visa Kit</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4"
+                href="/order-form/introductions-order-form.html">One-on-One Introduction</a>
+            <a class="d-inline-block px-3 fw-medium link-dark fs-4" href="/phone_translation/">Virtual Phone/Video
+                Translation</a>
+        </div>
+    </nav>
+
+    <nav id="fixed-bottomNav"
+        class="fixed-bottom d-flex align-items-center justify-content-around list-unstyled nav-fill"
+        style="transition: bottom 0.5s ease-in-out;">
+        <li class="nav-item">
+            <a class="link-light nav-link text-decoration-none d-flex flex-column align-items-center py-2 px-3 bg-transparent activeItemFixNav"
+                href="/">
+                <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+
+                <small class="mb-0 text-white">Home</small>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="link-light text-decoration-none d-flex flex-column align-items-center py-2 px-3 nav-link bg-transparent"
+                href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">
+                <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                </svg>
+                <small class="mb-0 text-white">Tour Schedule</small>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="link-light nav-link text-decoration-none d-flex flex-column align-items-center py-2 px-3 bg-transparent"
+                href="/new-manila-women.html">
+                <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
+                </svg>
+
+                <small class="mb-0 text-white">Newest Ladies</small>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="link-light nav-link text-decoration-none d-flex flex-column align-items-center py-2 px-3 bg-transparent"
+                href="#my-account" data-id="isMailUserLoggedIn">
+                <div class="spinner-border text-secondary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </a>
+        </li>
+    </nav>
+    <div class="offcanvas offcanvas-start d-md-none d-lg-block" tabindex="-1" id="mobileMenu"
+        aria-labelledby="mobileMenuLabel">
+        <div class="position-relative">
+            <a type="button" class="text-white position-absolute top-50 start-100 ms-4 mt-4" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+        <div class="offcanvas-body">
+            <nav id="menu" class="slide-menu">
+                <ul class="list-group list-group-flush main-menu shadow-none w-100">
+                    <h5 class="fs-1 px-3 mb-3 fw-medium" id="mobileLabel">
+                        Menu
+                    </h5>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none link-dark fw-semibold d-flex align-items-center column-gap-1"
+                            href="/members/login">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            My Account
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none link-dark w-100 d-flex align-items-center justify-content-between"
+                            id="has-submenu-clientTestimonials" href="javascript:void(0)">
+                            Client Testimonials
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            id="has-submenu-getStarted" href="javascript:void(0)">
+                            How to Get Started?
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            id="has-submenu-seeWomensProfile" href="javascript:void(0)">
+                            See Women's Profile
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            href="javascript:void(0)" id="has-submenu-travelAndMeetHer">
+                            Travel and Meet Her
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            id="has-submenu-servicesAndOptions" href="javascript:void(0)">
+                            Services and Options
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            href="javascript:void(0)" id="has-submenu-blog">
+                            Blogs
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            href="javascript:void(0)" id="has-submenu-policies">
+                            Policies
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="text-decoration-none d-flex align-items-center justify-content-between link-dark"
+                            href="/ronna-lou-live.html">
+                            <img loading="lazy" width="349" height="204" decoding="async"
+                                src="/img/ronnalou-live-sidebar.webp" alt="Live Webcast Thumbnail"
+                                class="img-fluid rounded-5">
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- client testimonials submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="clientTestimonialMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenuFromClientTestimonial" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/manila-women-videos/">Tour Videos</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark"
+                            href="/manila-women-videos/testimonial-videos.html">Testimonial Videos</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark"
+                            href="/manila-women-videos/informational-videos.html">Informational Videos</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/blog/">Blog</a>
+                    </li>
+                </ul>
+
+                <!-- how to get started submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="getStartedMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenu" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/how-to-meet-manila-women.html">How Our Service
+                            Works?</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/members/signup/">Sign up for free</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark"
+                            href="/information/how-to-correspond-with-women.html">Platinum Upgrade</a>
+                    </li>
+                </ul>
+
+                <!-- seeWomensProfileMenu submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="seeWomensProfileMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenuFromseeWomensProfileMenu" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/new-manila-women.html">Newest Ladies
+                            Profile</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/women/philippines/philippines-women.htm">All
+                            Cebu Ladies Profiles</a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/mp/asian-women.htm">All
+                            All Asian Women Profiles
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- seeWomensProfileMenu submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="travelAndMeetHerMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenuFromtravelAndMeetHerMenu" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark"
+                            href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">
+                            Group Tours
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/asian_club/">
+                            Club Tours
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- seeWomensProfileMenu submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="servicesAndOptionsMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenuFromservicesAndOptionsMenu" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/phone_translation/">
+                            Virtual Phone/Video Translation
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/order-form/introductions-order-form.html">
+                            One-on-One Introduction
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/execu/professional-matchmaker-plan.html">
+                            Our Executive Plan
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/gifts/">
+                            Sending Gift
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/order-form/imbra-order-form.html">
+                            IMBRA Request
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/fiancee-visa/">
+                            Fiancee Visa Kit
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- seeWomensProfileMenu submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="blogMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenuFromblogMenu" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/blog/">
+                            Featured Stories
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/dating/">
+                            Dating
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/culture/">
+                            Culture
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/travel/">
+                            Travel
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/psychology/">
+                            Psychology
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/realities/">
+                            Realities
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- seeWomensProfileMenu submenu -->
+                <ul class="submenu list-group px-0 shadow-none" id="policiesMenu">
+                    <li
+                        class="list-group-item bg-transparent border-0 d-flex align-items-center shadow-sm w-100 py-3 ps-0 mb-3">
+                        <a class="text-decoration-none link-secondary d-flex align-items-center fw-medium"
+                            id="backToMainMenuFrompoliciesMenu" href="javascript:void(0)">
+                            <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                            </svg>
+
+                            Back
+                        </a>
+                        <span class="submenu-text w-100 text-center fw-semibold text-secondary fs-3"></span>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/members/terms">
+                            Terms and Conditions
+                        </a>
+                    </li>
+                    <li class="list-group-item bg-transparent border-0">
+                        <a class="text-decoration-none link-dark" href="/members/privacy">
+                            Privacy Policy
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

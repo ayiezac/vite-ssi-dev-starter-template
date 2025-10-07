@@ -1,0 +1,5 @@
+<section class="container" id="verified-badge">
+    <ul class="list-unstyled list-group-horizontal list-group justify-content-between shadow-none overflow-auto overflow-y-hidden">
+        <!--#include virtual="/imagemaps/manila-women-rotator-verified.php" -->
+    </ul>
+</section>

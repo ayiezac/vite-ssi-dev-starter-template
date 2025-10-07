@@ -1,0 +1,64 @@
+.embla-rotator {
+  overflow: hidden;
+  position: relative;
+}
+
+.embla-rotator__container {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.embla-rotator__slide {
+  /* flex: 0 0 100%; */
+  min-width: 0;
+}
+
+button.embla-rotator__next {
+  top: 50%;
+  right: -35px;
+  left: auto;
+  position: absolute;
+}
+
+button.embla-rotator__prev {
+  top: 50%;
+  left: -35px;
+  right: auto;
+  position: absolute;
+}
+
+#scroll-driven-nav {
+  top: -20rem;
+  transition: all 0.3s ease-in-out;
+  height: 12rem;
+}
+
+@media (max-width: 1024px) {
+  #scroll-driven-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #scroll-driven-nav {
+    display: none;
+  }
+}
+
+#scroll-driven-nav > div {
+  max-width: 160rem;
+}
+
+#scroll-driven-nav [data-id="btnCtaStateContainer"] a span {
+  text-wrap: balance;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#scroll-driven-nav button[data-target="#quickSearchFormModal"] span:nth-child(1) {
+  text-wrap: balance;
+}
+
+#scroll-driven-nav button[data-target="#quickSearchFormModal"] span:nth-child(2) {
+  padding-block: 2.1rem;
+}

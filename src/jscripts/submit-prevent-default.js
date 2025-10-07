@@ -1,0 +1,1 @@
+$("form").submit(function(){return $("#submit").prop("disabled",!0),e.preventDefault(),!1});

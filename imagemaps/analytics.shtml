@@ -1,0 +1,5 @@
+<!-- partytown -->
+<script scr="/imagemaps/package/partytown/lib/partytown.js"></script>
+<script src="/invar/ssi-common/jscript/memcatch.js" defer></script>
+<!-- <link rel="modulepreload" href="/imagemaps/js/isUserLoggedIn.min.js"> -->
+<link rel="modulepreload" href="/imagemaps/js/show-hide-nav.js">

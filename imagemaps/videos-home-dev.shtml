@@ -1,0 +1,38 @@
+<div class="border container-fluid px-0 my-5 rounded-3">
+
+    <h2 class="p-3 my-0 text-dark border-bottom bg-body-tertiary display-6"><strong>Listen To Some Of Our Stories...</strong></h2>
+    <div class="row row-cols-1 row-cols-md-3 container-fluid mx-auto g-4 p-3">
+        <div class="col-md-4 col-sm-4 col-12">
+            <a class="has-yt-play-btn d-block" href="https://youtu.be/bnjM0_unVEk" data-lity="" aria-label="Finding My Filipina Dream Wife in the Philippines">
+
+                <img data-srcset=" /img/bnjM0_unVEk-400w.webp 400w,  /img/bnjM0_unVEk-600w.webp 600w,  /img/bnjM0_unVEk-800w.webp 800w,  /img/bnjM0_unVEk-1000w.webp 1000w,  /img/bnjM0_unVEk-1200w.webp 1200w"
+                    data-sizes="auto" data-src=" /img/bnjM0_unVEk.webp"
+                    alt="Finding My Filipina Dream Wife in the Philippines" width="350" height="201"
+                    class="img-fluid rounded-3 lazyload d-block object-fit-cover" style="aspect-ratio:350/201;" />
+            </a>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12">
+            <a class="has-yt-play-btn d-block" href="https://youtu.be/WrGrggFgrzg" data-lity="" aria-label="Feminine Virtue of Filipinas : Why I Married a Filipino">
+
+                <img data-srcset=" /img/WrGrggFgrzg-400w.webp 400w,  /img/WrGrggFgrzg-600w.webp 600w,  /img/WrGrggFgrzg-800w.webp 800w,  /img/WrGrggFgrzg-1000w.webp 1000w,  /img/WrGrggFgrzg-1200w.webp 1200w"
+                    data-sizes="auto" data-src=" /img/WrGrggFgrzg.webp"
+                    alt="Feminine Virtue of Filipinas : Why I Married a Filipino Woman" width="350" height="201"
+                    class="img-fluid rounded-3 lazyload d-block object-fit-cover" style="aspect-ratio:350/201;" />
+            </a>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12">
+            <a class="has-yt-play-btn d-block" href="https://youtu.be/js1lViNbymE" data-lity="" aria-label="Face-to- Face with Filipinas I Met Online">
+                <img data-srcset=" /img/js1lViNbymE-400w.webp 400w,  /img/js1lViNbymE-600w.webp 600w,  /img/js1lViNbymE-800w.webp 800w,  /img/js1lViNbymE-1000w.webp 1000w,  /img/js1lViNbymE-1200w.webp 1200w"
+                    data-sizes="auto" data-src=" /img/js1lViNbymE.webp"
+                    alt="Face-to- Face with Filipinas I Met Online" width="350" height="201"
+                    class="img-fluid rounded-3 lazyload d-block object-fit-cover" style="aspect-ratio:350/201;" />
+            </a>
+        </div>
+    </div>
+    <div class="text-center my-3 py-3">
+        <a href="/manila-women-videos/" role="button" class="p-3 link-light rounded-pill fw-bold"
+            style="background-color: #07326D;">View More Videos »</a>
+    </div>
+</div>

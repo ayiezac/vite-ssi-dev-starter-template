@@ -1,0 +1,70 @@
+<!-- Speculation Rules for Chromium -->
+<script type="speculationrules">
+{
+  "prerender": [
+    {
+      "where": {
+        "and": [
+          { "href_matches": "/*" },
+          { "not": { "href_matches": "/members/*" } },
+          { "not": { "selector_matches": "[rel~=nofollow]" } },
+          { "not": { "selector_matches": "[target=_blank]" } }
+        ]
+      },
+      "eagerness": "moderate"
+    }
+  ],
+  "prefetch": [
+    {
+      "where": {
+        "and": [
+          { "href_matches": "/*" },
+          { "not": { "href_matches": "/members/*" } },
+          { "not": { "href_matches": ".*\\?.*" } }
+        ]
+      },
+      "eagerness": "moderate"
+    }
+  ]
+}
+</script>
+
+<!-- Fallback for non-Chromium browsers -->
+<script>
+  (function () {
+    if (!HTMLScriptElement.supports || !HTMLScriptElement.supports('speculationrules')) {
+      const preloadedUrls = {};
+
+      function pointerenterHandler() {
+        const href = this.href;
+
+        // Skip logout URLs
+        if (href.includes('/logout')) return;
+
+        if (!preloadedUrls[href]) {
+          preloadedUrls[href] = true;
+
+          const prefetcher = document.createElement('link');
+          prefetcher.as = prefetcher.relList.supports('prefetch') ? 'document' : 'fetch';
+          prefetcher.rel = prefetcher.relList.supports('prefetch') ? 'prefetch' : 'preload';
+          prefetcher.href = href;
+
+          document.head.appendChild(prefetcher);
+        }
+      }
+
+      function isMobile() {
+        const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+        return regex.test(navigator.userAgent);
+      }
+      document.querySelectorAll('a[href^="/"]').forEach(item => {
+
+        if (isMobile) {
+          item.addEventListener('touchstart', pointerenterHandler, { passive: true });
+        } else {
+          item.addEventListener('mouseover', pointerenterHandler);
+        }
+      });
+    }
+  })();
+</script>

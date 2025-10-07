@@ -1,0 +1,33 @@
+<div class="modal" id="searchInfoModal" tabindex="-1" aria-labelledby="searchInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header p-0">
+                <div class="col-6 d-flex align-items-center gap-3 p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                    <h3 id="searchInfoModalLabel" class="my-0 text-center display-6 fw-medium">Quick Search</h3>
+                </div>
+
+
+                <div class="col d-flex justify-content-end gap-3 align-items-center">
+                    <a href="/search-manila-women-seeking-men/" role="button" class="p-3 btn-primary-color__light mb-0 link-body-emphasis fw-bold gap-2 text-decoration-underline link-offset-2 d-lg-block d-none">Go to Advance Search &gt;&gt;<svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-3"><circle cx="20" cy="20" r="18.5" fill="#00479E" stroke="#F5F5F5" stroke-width="3"></circle><path d="m19.538 13.515-3.303 1.387v-5.67l-2.688 9.36 2.688-1.191v6.408l3.303-10.294Zm-4.09-4.755-.063.23-.747 2.602a5.288 5.288 0 0 0-3.386 4.933c0 2.573 1.685 4.717 4.099 5.19v2.635c-3.83-.516-6.655-3.846-6.655-7.82 0-3.959 2.939-7.24 6.753-7.77Zm15.306 21.994c-.55.55-1.135.605-1.406.516-.265-.088-1.331-.979-2.968-2.183-1.637-1.21-1.652-1.756-2.114-2.79-.462-1.027-1.494-2.094-2.826-2.576l-.477-.723c-1.213.831-2.605 1.323-3.995 1.411l.103-.324.781-2.435a5.292 5.292 0 0 0 3.976-5.125c0-2.68-1.887-5.021-4.718-5.267V8.696c4.09.25 7.314 3.664 7.314 7.834 0 1.653-.55 3.182-1.426 4.446l.718.473c.482 1.332 1.548 2.36 2.575 2.823 1.028.462 1.583.477 2.792 2.114 1.21 1.633 2.099 2.7 2.187 2.966.089.266.035.85-.516 1.402Zm-.487-.88a.394.394 0 0 0-.393-.394.394.394 0 0 0-.393.393c0 .217.177.394.393.394a.394.394 0 0 0 .393-.394Z" fill="#fff"></path></svg>
+                    </a>
+                    <button type="button" class="btn-close m-0 p-3" data-bs-dismiss="modal"></button>
+                </div>
+
+            </div>
+            <div class="d-lg-none d-block d-flex px-3 mt-3">
+                <a href="/search-manila-women-seeking-men/" role="button" class="p-2 btn-primary-color__light mb-0 gap-2 text-decoration-underline link-offset-2 flex-fill text-center fw-bold link-body-emphasis">Go to Advance Search &gt;&gt;<svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-3"><circle cx="20" cy="20" r="18.5" fill="#00479E" stroke="#F5F5F5" stroke-width="3"></circle><path d="m19.538 13.515-3.303 1.387v-5.67l-2.688 9.36 2.688-1.191v6.408l3.303-10.294Zm-4.09-4.755-.063.23-.747 2.602a5.288 5.288 0 0 0-3.386 4.933c0 2.573 1.685 4.717 4.099 5.19v2.635c-3.83-.516-6.655-3.846-6.655-7.82 0-3.959 2.939-7.24 6.753-7.77Zm15.306 21.994c-.55.55-1.135.605-1.406.516-.265-.088-1.331-.979-2.968-2.183-1.637-1.21-1.652-1.756-2.114-2.79-.462-1.027-1.494-2.094-2.826-2.576l-.477-.723c-1.213.831-2.605 1.323-3.995 1.411l.103-.324.781-2.435a5.292 5.292 0 0 0 3.976-5.125c0-2.68-1.887-5.021-4.718-5.267V8.696c4.09.25 7.314 3.664 7.314 7.834 0 1.653-.55 3.182-1.426 4.446l.718.473c.482 1.332 1.548 2.36 2.575 2.823 1.028.462 1.583.477 2.792 2.114 1.21 1.633 2.099 2.7 2.187 2.966.089.266.035.85-.516 1.402Zm-.487-.88a.394.394 0 0 0-.393-.394.394.394 0 0 0-.393.393c0 .217.177.394.393.394a.394.394 0 0 0 .393-.394Z" fill="#fff"></path></svg>
+                </a>
+            </div>
+            <div class="modal-body">
+
+                <div class="homepage-quicksearch-sec row row-cols-1 row-cols-lg-2 row-cols-md-1 mx-auto">
+                    <!--#include virtual="/imagemaps/quick-search-form-desktop.shtml"-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

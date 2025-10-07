@@ -1,0 +1,62 @@
+.row {
+  margin-left: unset !important;
+  margin-right: unset !important;
+}
+
+.womens-profile-content-area {
+  background: #fff !important;
+}
+
+.profile-page-upcoming-events-box .pp-upcoming-events-right {
+  background-position: center !important;
+  align-content: center;
+  padding: unset !important;
+}
+
+.profile-page-upcoming-events-box .pp-upcoming-events-right :is(h4) {
+  margin-bottom: 0;
+}
+
+.upcoming-events-how-to-btns ul li a {
+  color: #fff !important;
+  line-height: 1.5 !important;
+  padding-block: 1.5rem;
+}
+
+.upcoming-events-how-to-btns ul li a:after {
+  display: grid;
+  align-items: center;
+}
+
+img.ronna-live-side {
+  max-width: 100% !important;
+}
+
+@media (max-width: 992px) {
+  .update-profiles,
+  .women-section {
+    padding-inline: 0 !important;
+  }
+
+  .women-section {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .update-profiles {
+    flex: calc(100% / 3) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .update-profiles {
+    flex: calc(100% / 3) !important;
+    order: unset !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .update-profiles {
+    flex: calc(100% / 2) !important;
+  }
+}

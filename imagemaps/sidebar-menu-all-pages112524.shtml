@@ -1,0 +1,105 @@
+<div class="row">
+  <div class="col-lg-3 col-md-3 sidebar">
+    <a href="/new-manila-women.html">
+      <button type="button" class="btn btn-primary btn-lg primary-btn">Newest Women Profiles</button>
+    </a>
+    <a href="/new-single-girls-for-marriage-worldwide.html">
+      <button type="button" class="btn btn-primary btn-lg primary-btn">Newest Ladies Worldwide</button>
+    </a>
+    <a href="/search-manila-women-seeking-men/">
+      <button type="button" class="btn btn-primary btn-lg primary-btn search-btn">Quick Search Women</button>
+    </a>
+    <a href="/search-manila-women-seeking-men/search-all-foreign-women.html">
+      <button type="button" class="btn btn-primary btn-lg primary-btn search-btn">Global Search Tool</button>
+    </a>
+    <div class="manila-tour-date">
+      <p class="tour-date-departs text-center">Our Next <a href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html"><b>Manila Group Singles Tour</b></a> Departs <!--#include virtual="/invar/ssi-common/tourdates/philippines.shtml" --> <br><span>Individual Club Tours <b>365 Days a Year</b></span></p>
+    </div>
+    <div class="sidebar-contact-num">
+      <!--#include virtual="/invar/ssi-common/contact/sidebar-contact-number.shtml" -->
+      <!-- DO NOT REMOVE  -->
+      <!--#include virtual="/invar/ssi-common/botcode/bottrap.shtml" -->
+      <!-- END - DO NOT REMOVE -->
+    </div>
+
+
+    <!--#include virtual="/imagemaps/mobile-sidebar.shtml"-->
+
+
+    <div class="wrapper center-block desktop-sidebar">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Women's Profile & Search Options
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            <ul>
+              <li><a href="/members/signup/">&raquo; Men&rsquo;s FREE Registration</a></li>
+              <li><strong><a href="/women/philippines/philippines-women.htm">&raquo; Manila Women Profiles</a></strong></li>
+              <li><strong><a href="/new-manila-women.html">&raquo; Manila Women | Newest Profiles</a></strong></li>
+              <li><strong><a href="/mp/asian-women.htm">&raquo; All Asian Women</a></strong></li>
+              <li><strong><a href="/newest-asian-women.html">&raquo; Newest Asian Women</a></strong></li>
+              <li><strong><a href="/search-single-foreign-women-worldwide.html">&raquo; Want More? Single Women Worldwide</a></strong></li>
+              <li><strong><a href="/new-single-girls-for-marriage-worldwide.html">&raquo; This Week's New Girls Worldwide</a></strong></li>
+              <li><a href="/search-manila-women-seeking-men/">&raquo; Advanced Search</a></li>
+              <li><a href="/invar/contact/match_request.html/">&raquo; Weekly Auto Match Wizard</a></li>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Tools & Options
+            </a>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            <ul>
+              <li><a href="/how-to-meet-manila-women.html">&raquo; How Our Service Works</a></li>
+              <li><a href="/information/how-to-correspond-with-women.html">&raquo; Platinum Upgrade</a></li>
+              <li><a href="/phone_translation/">&raquo; Virtual Phone/Video Calls</a></li>
+              <li><a href="/order-form/imbra-order-form.html">&raquo; IMBRA Request</a></li>
+              <li><a href="/execu/professional-matchmaker-plan.html">&raquo; Our Executive Plan</a></li>
+              <li><a href="/gifts/">&raquo; Send Her A Gift</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default sidebar-image">
+        <a href="/ronna-lou-live.html"><img src="/img/ronnalou-live-sidebar.webp" class="ronna-live-side img-responsive img-thumbnail" alt="Filipino Women"></a>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Travel & Meeting Her
+            </a>
+          </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            <ul>
+              <li><a href="/manila-women-tours.html">&raquo; Manila Women Tours</a></li>
+              <li><a href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">&raquo; Manila Women Tour Schedule</a></li>
+              <li><a href="/asian_club/">&raquo; Individual Club Tours</a></li>
+              <li><a href="/manila-women-videos/">&raquo; Manila Women Tour Highlight Videos</a></li>
+              <li><a href="/order-form/introductions-order-form.html">&raquo; One on One Introduction</a></li>
+              <li><a href="/manila-women-tour-photo/">&raquo; Manila Women Tour Photos</a></li>
+             <li><a href="/blog/">&raquo; Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>

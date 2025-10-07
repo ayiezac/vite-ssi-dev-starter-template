@@ -1,0 +1,111 @@
+    <!-- INTEGRATED SIDEBAR FOR AMP -->
+    <a href="/new-manila-women.html"><button class="newest-women-btn">Newest Women Profiles</button></a>
+
+    <a href="/search-manila-women-seeking-men/"><button class="newest-women-btn">Quick Search Women</button></a>
+
+    <div class="loveme-tour-date">
+        <p class="tour-date-departs text-center">Our Next <br><a href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">Manila Group Singles Tour</a> <br>Departs <!--#include virtual="/invar/ssi-common/tourdates/philippines.shtml" --> <br><span>Individual Club Tours <b>365 Days a Year</b></span></p>
+    </div>
+
+    <div align="center" style="margin: 15px 0;">
+      <amp-img src="/invar/ssi-common/contact/contact-number.png" class="img-responsive" alt="" width="250px" height="42">
+    </div>
+
+    <ul class="list-group sidebarlist">
+      <li class="list-group-item active">Find &amp; Date Manila Women</li>
+      <li class="list-group-item"><a href="/sign-up.html">&raquo; Men&rsquo;s FREE Registration</a></li>
+      <li class="list-group-item"><strong><a href="/women/philippines/philippines-women.htm">&raquo; Manila Women Profiles</a></strong></li>
+      <li class="list-group-item"><strong><a href="/new-manila-women.html">&raquo; Manila Women | Newest Profiles</a></strong></li>
+      <li class="list-group-item"><strong><a href="/mp/asian-women.htm">&raquo; All Asian Women</a></strong></li>
+      <li class="list-group-item"><strong><a href="/newest-asian-women.html">&raquo; Newest Asian Women</a></strong></li>
+      <li class="list-group-item"><a href="/search-manila-women-seeking-men/">&raquo; Advanced Search</a></li>
+      <li class="list-group-item"><a href="/how-to-meet-manila-women.html">&raquo; How Our Service Works</a></li>
+      <li class="list-group-item"><a href="/order-form/automatchmaillist.shtml">&raquo; Weekly Auto Match Wizard</a></li>
+      <li class="list-group-item"><a href="/best-manila-marriage-and-matchmaking-agency.html">&raquo; Best Manila Marriage and Matchmaking Agency</a></li>
+      <li class="list-group-item"><a href="/blog/">&raquo; Blog</a></li>
+    </ul>
+    <ul class="list-group sidebarlist">
+      <li class="list-group-item active">Actually Meet Manila Women</li>
+      <li class="list-group-item"><a href="/manila-women-tours.html">&raquo; Manila Women Tours</a></li>
+      <li class="list-group-item"><a href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">&raquo; Manila Women Tour Schedule</a></li>
+      <li class="list-group-item"><a href="/asian_club/">&raquo; Individual Club Tours</a></li>
+      <li class="list-group-item"><a href="/manila-women-videos/">&raquo; Manila Women Tour Highlight Videos</a></li>
+      <li class="list-group-item"><a href="/manila-women-tour-photo/">&raquo; Manila Women Tour Photos</a></li>
+      <li class="list-group-item"><a href="/tour/things-to-consider-on-singles-tours.html">&raquo; Singles&rsquo; Tour FAQs</a></li>
+    </ul>
+    <ul class="list-group sidebarlist">
+      <li class="list-group-item active">General Tips &amp; Information</li>
+      <li class="list-group-item"><a href="/how-to-meet-manila-women.html">&raquo; How to Meet Manila Women</a></li>
+      <li class="list-group-item"><a href="/information/prg2b5.shtml">&raquo; How to Use Our Service</a></li>
+      <li class="list-group-item"><a href="/about-manila-women.html">&raquo; About the Matchmaking Services of Manila-Women.Com</a></li>
+      <li class="list-group-item"><a href="/invar/sendmess/index.php">&raquo; Contact Us</a></li>
+      <li class="list-group-item"><a href="/more-about-single-manila-women.html">&raquo; More about Single Manila Women</a></li>
+      <li class="list-group-item"><a href="/manila-singles.html">&raquo; Manila Singles</a></li>
+      <li class="list-group-item"><a href="/date-manila-women-seeking-men.html">&raquo; Dating in Manila</a></li>
+      <li class="list-group-item"><a href="/why-marry-younger-manila-women.html">&raquo; Reasons to Marry Younger Manila Women</a></li>
+      <li class="list-group-item"><a href="/manila-brides.html">&raquo; Manila Brides</a></li>
+      <li class="list-group-item"><a href="/craigslist-women-seeking-men-vs-manila-women.html">&raquo; Craigslist versus Manila Women</a></li>
+      <li class="list-group-item"><a href="/manila-women-questions-to-ask.html">&raquo; Questions to Ask Manila Women</a></li>
+    </ul>
+    <ul class="list-group sidebarlist">
+      <li class="list-group-item active">Manila Culture &amp; History</li>
+      <li class="list-group-item"><a href="/women-in-manila.html ">&raquo; Women in Manila</a></li>
+      <li class="list-group-item"><a href="/manila-history-culture-traditions.html">&raquo; About Manila: Its History, Culture, and Traditions</a></li>
+      <li class="list-group-item"><a href="/manila-dating-culture.html">&raquo; Manila Dating Culture</a></li>
+      <li class="list-group-item"><a href="/manila-marriage-culture.html">&raquo; Manila Marriage Culture</a></li>
+      <li class="list-group-item"><a href="/visit-manila.html">&raquo; Visit Manila</a></li>
+      <li class="list-group-item"><a href="/manila-travel-guide.html">&raquo; Manila Travel Guide</a></li>
+    </ul>
+    
+
+    <!-- INTEGRATED SIDEBAR FOR AMP -->
+
+    </div>
+    </div>
+
+    <footer>
+
+    <div class="ender">
+      <div class="container">
+        <div class="contact">
+          <a href="/invar/sendmess/index.php">
+            <amp-img 
+              src="/invar/ssi-common/contact/contact-dark-background.png"
+              alt="contact us" 
+              width="300"
+              height="107"
+              class="img-responsive contactus-img"
+              layout="responsive">
+            </amp-img>
+          </a>
+        </div>
+
+        <div class="social">
+          <a href="https://www.facebook.com/manilawomen/" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/WomenManila" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/manilawomen/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCE4eEmFW3XnuAALxFPzeJuQ" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+        
+
+        <a target="_top" href="/"><button class="newest-women-btn">Home</button></a>
+        <a target="_top" href="/women/philippines/philippines-women.htm"><button class="newest-women-btn">Manila Women Profiles</button></a>
+        <a target="_top" href="/manila-women-tours.html"><button class="newest-women-btn">Manila Women Tours</button></a>
+        <a target="_top" href="/how-to-meet-manila-women.html"><button class="newest-women-btn">How to Meet Manila Women</button></a>
+        <a target="_top" href="/new-manila-women.html"><button class="newest-women-btn">Newest Manila Women’s Profiles</button></a>
+        <a target="_top" href="/search-manila-women-seeking-men/"><button class="newest-women-btn">Advanced Search</button></a>
+        <a target="_top" href="/members/login"><button class="newest-women-btn">Login</button></a>
+        <a target="_top" href="/members/terms"><button class="newest-women-btn">Terms &amp; Conditions</button></a>
+        <a target="_top" href="/members/privacy"><button class="newest-women-btn">Privacy Policy</button></a>
+        <a target="_top" href="/invar/sendmess/index.php"><button class="newest-women-btn">Contact</button></a>
+
+        <div class="endertwo">  
+          <div class="container">
+            <p>&#169; Copyright - All Rights Reserved | <a href="/" target="_top">Manila Women</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+      
+  </footer>

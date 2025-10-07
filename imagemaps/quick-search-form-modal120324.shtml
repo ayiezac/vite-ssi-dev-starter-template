@@ -1,0 +1,18 @@
+<!-- Quick Search Modal -->
+<div class="modal fade" id="quickSearchFormModal" tabindex="-1" aria-labelledby="quickSearchFormModalLabel">
+    <div class="modal-dialog modal-dialog-centered my-0">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title display-6" id="quickSearchModalLabel">Quick Search</h4>
+                <button type="button" class="btn-close border border-2 rounded-circle p-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!--#include virtual="./quick-search-form-desktop.shtml" -->
+            </div>
+            <div class="modal-footer justify-content-center">
+                <a href="/search-manila-women-seeking-men/" class="link-advanceSearch link-primary text-decoration-none fs-4">Use
+                    Advance Search</a>
+            </div>
+        </div>
+    </div>
+</div>

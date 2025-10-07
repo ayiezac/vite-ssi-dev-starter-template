@@ -1,0 +1,27 @@
+<div class="border container-fluid px-0 my-5 rounded-3">
+
+    <h3 class="p-3 my-0 text-dark border-bottom bg-body-tertiary"><strong>Listen To Some Of Our Stories...</strong></h3>
+    <div class="row row-cols-1 row-cols-md-3 container-fluid mx-auto g-4 p-3">
+        <div class="col">
+            <a class="has-yt-play-btn d-inline-block" href="https://youtu.be/bnjM0_unVEk" data-lity="">
+                <img decoding="async" loading="lazy" src="https://i.ytimg.com/vi_webp/bnjM0_unVEk/maxresdefault.webp" alt="Finding My Filipina Dream Wife in the Philippines" class="img-fluid rounded-3">
+            </a>
+        </div>
+
+        <div class="col">
+            <a class="has-yt-play-btn d-inline-block" href="https://youtu.be/WrGrggFgrzg" data-lity="">
+                <img decoding="async" loading="lazy" src="https://i.ytimg.com/vi_webp/WrGrggFgrzg/maxresdefault.webp" alt="Feminine Virtue of Filipinas : Why I Married a Filipino Woman" class="img-fluid rounded-3">
+            </a>
+        </div>
+
+        <div class="col">
+            <a class="has-yt-play-btn d-inline-block" href="https://youtu.be/js1lViNbymE" data-lity="">
+                <img decoding="async" loading="lazy" src="https://i.ytimg.com/vi_webp/js1lViNbymE/maxresdefault.webp" alt="Face-to- Face with Filipinas I Met Online" class="img-fluid rounded-3">
+            </a>
+        </div>
+    </div>
+    <div class="text-center my-3 py-3">
+        <a href="/manila-women-videos/" role="button" class="p-3 link-light rounded-pill fw-bold" style="background-color: #07326D;">View More Videos »</a>
+    </div>
+
+</div>

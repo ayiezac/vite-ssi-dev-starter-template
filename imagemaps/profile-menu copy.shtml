@@ -1,0 +1,144 @@
+<script defer src="/members/scripts/lp_track.min.js" async></script>
+
+<div class="container profile-wrapper">
+  <!-- CSS and javascript files -->
+  <script src="/invar/ssi-common/jscript/ddaccordion.js"></script>
+  <link rel="stylesheet" TYPE="text/css" href="/imagemaps/st_site.css">
+  <!-- END CSS and javascript files -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/imagemaps/style.css">
+  <link rel="stylesheet" type="text/css" href="/imagemaps/masterslider.css">
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-4 logotop">
+          <a href="/"><img src="/img/manila-women-logo.png" class="img-responsive" alt="Manila Women Logo" /></a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-8 text-right">
+          <a href="/invar/sendmess/index.php">
+            <img src="/img/contact-number-white.png">
+          </a>
+          <a href="#" data-toggle="modal" data-target=".manila-women-modal">
+            <button type="button" class="btn btn-primary btn-lg primary-btn">Register Free Instantly</button>
+          </a>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 main-nav">
+
+          <div class="ada-icon-link">
+            <a href="/information/ada/index.html"><img class="ada-icon" src="/information/ada/handicap-icon.png"
+                alt="Link to ADA Handicap Assistance and Information" border="0"></a>
+            <a href="#main-content"><img src="/information/ada/arrow-forward.png"
+                alt="Disabled Skip to Main Page Content" border="0"></a>
+          </div>
+
+          <!-- Static navbar -->
+          <nav class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a target="_top" href="/">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Women&#39;s Profiles
+                    <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/members/signup/"> Men&rsquo;s FREE Registration</a></li>
+                    <li><a href="/women/philippines/philippines-women.htm"> Manila Women Profiles</a></li>
+                    <li><a href="/new-manila-women.html"> Manila Women | Newest Profiles</a></li>
+                    <li><a href="/mp/asian-women.htm"> All Asian Women</a></li>
+                    <li><a href="/newest-asian-women.html"> Newest Asian Women</a></li>
+                    <li><a href="/search-single-foreign-women-worldwide.html"> Want More? Single Women Worldwide</a>
+                    </li>
+                    <li><a href="/new-single-girls-for-marriage-worldwide.html"> This Week's New Girls Worldwide</a>
+                    </li>
+                    <li><a href="/search-manila-women-seeking-men/"> Advanced Search</a></li>
+                  </ul>
+                </li>
+                <li><a target="_top" href="/manila-women-tours.html">Manila Women Tours</a></li>
+                <li><a target="_top" href="/how-to-meet-manila-women.html">How to Meet Manila Women</a></li>
+                <li><a target="_top" href="/new-manila-women.html">Newest Manila Women&rsquo;s Profiles</a></li>
+                <li><a target="_top" href="/search-manila-women-seeking-men/">Advanced Search</a></li>
+                <li><a target="_top" href="/members/login"><i class="fa fa-user-o" aria-hidden="true"></i> &nbsp; My
+                    Account</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Button Modal Start -->
+  <div class="modal fade manila-women-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content register-modal">
+        <div class="row">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img
+                src="/img/manila-women-close.png"></span></button>
+          <div class="col-lg-6">
+            <!--#include virtual="/invar/ssi-common/why-register.shtml" -->
+          </div>
+
+          <div class="col-lg-6">
+            <!--#include virtual="/invar/ssi-common/form-register.shtml" -->
+          </div>
+
+          <div class="col-lg-12 text-center register-custom">
+            <h2>
+              Is there any REAL reason to wait?<br />
+              It's FREE, instant and without obligation to register NOW!
+            </h2>
+
+            <h5>
+              It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+            </h5>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Button Modal End -->
+
+
+  <!-- Ladies profile personal data display  -->
+  <script>
+
+    $(document).ready(function () {
+      $(".mobile-description-content").addClass("in");
+    });
+
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      $(".mobile-description-content").addClass("in");
+    });
+
+  </script>
+  <script>
+    const currUrl = window.location.pathname;
+    const head = document.head;
+
+    if (currUrl === "/invar/search.new.php") {
+      let script1 = document.createElement('script');
+      script1.src = '/invar/ssi-common/jscript/jquery.min.js';
+      head.appendChild(script1);
+
+      let script2 = document.createElement('script');
+      script2.src = '/invar/ssi-common/jscript/framework.min.js';
+      head.appendChild(script2);
+    }
+  </script>
+  <!-- Upcoming Tour Sched -->
+
+  <!--#include virtual="/invar/ssi-common/profile-banners/profile-page-upcoming-tour-sched-ssi.shtml" -->
+
+  <!-- End upcoming tour sched -->

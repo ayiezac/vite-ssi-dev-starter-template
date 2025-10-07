@@ -1,0 +1,70 @@
+<!--#include virtual="/imagemaps/campaign-tracking.shtml" -->
+
+<div class="container-fluid">
+      <div class="row">
+
+      <!-- Return to Top -->
+      <a name="javascript:" id="return-to-top"><i class="glyphicon glyphicon-chevron-up"></i></a>
+      
+      <!--#include virtual="/imagemaps/top-navi-all-pages.shtml" -->
+
+      <div class="banner">
+        <div class="container">
+
+          <!-- MOBILE VIDEO BANNER -->
+          <div class="mobile-video-banner">
+            <figure class="figure-vid">
+              <a href="https://youtu.be/kd2fhlO1-Ho" data-lity><img src="/img/MW-YT002.jpg" border="0" alt="A New Wife Video" class="img-thumbnail" /></a>
+            </figure>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-8 col-md-8">
+              <ul class="list-inline rotator">
+                <!--#include virtual="/imagemaps/manila-women-rotator.php" -->
+              </ul>
+              <h2>Meet Beautiful Manila Women Now!</h2>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="slider">
+                <img src="/img/manila-women-slider-bg.png" alt="" />
+                <div class="ms-stackview-template">
+                  <!-- masterslider -->
+                  <div class="master-slider ms-skin-default" id="masterslider">
+                      <div class="ms-slide">
+                          <img src="/img/slider/blank.gif" data-src="/img/slider/slider-1.png" alt=""/>                
+                      </div>
+                      <div class="ms-slide">
+                          <img src="/img/slider/blank.gif" data-src="/img/slider/slider-2.png" alt=""/>                    
+                      </div>
+                      <div class="ms-slide">
+                          <img src="/img/slider/blank.gif" data-src="/img/slider/slider-3.png" alt=""/>    
+                      </div>
+                  </div>
+                  <!-- end of masterslider -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container-fluid midwrap">
+      <div class="container-fluid middle">
+        <!--#include virtual="/imagemaps/sidebar-menu-all-pages.shtml"-->
+
+          <script type="text/javascript">
+           $('.panel-collapse').on('show.bs.collapse', function () {
+            $(this).siblings('.panel-heading').addClass('active');
+          });
+
+          $('.panel-collapse').on('hide.bs.collapse', function () {
+            $(this).siblings('.panel-heading').removeClass('active');
+          });
+        </script>
+
+          <div class="col-lg-9 col-md-9 content">
+
+            <!--#include virtual="/imagemaps/news-top.shtml"-->
+
+            <!--#include virtual="/imagemaps/top-mobile-sidebar.shtml"-->

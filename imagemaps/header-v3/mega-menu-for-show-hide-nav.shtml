@@ -1,0 +1,92 @@
+<style>
+    @media (max-width: 991.98px) {
+        #our-services-megamenu {
+            content-visibility: hidden;
+        }
+    }
+
+    #our-services-megamenu.exit-mega-menu {
+        top: 15rem;
+        opacity: 0;
+        z-index: -1;
+        content-visibility: hidden;
+    }
+
+    #our-services-megamenu.entrance-show {
+        top: 12rem;
+        opacity: 1 !important;
+        transition: top 0.4s, opacity 0.4s ease;
+        z-index: 2;
+        content-visibility: visible;
+    }
+</style>
+<div class="position-fixed bg-white start-0 end-0 exit-mega-menu container-lg px-0 rounded-5 d-lg-none d-md-none d-sm-none d-xl-block"
+    id="our-services-megamenu">
+    <div class="border border-light-subtle p-5 shadow rounded-5" id="mega-menu-container">
+        <div class="mega-header d-flex align-items-center justify-content-between mb-3">
+            <h2 class="my-0 display-4 fw-medium">Our Services</h2>
+            <button type="button" class="btn-close border border-2 border-secondary rounded-circle p-3 bg-body-secondary" data-id="mega-dropdown-btn-close"></button>
+        </div>
+        <div class="row row-cols-3">
+            <div class="col">
+                <h3 class="fw-medium d-flex align-items-center gap-2 fs-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
+                    Book a Tour, Travel & Meet Her
+                </h3>
+                <ul class="list-group shadow-none mb-0 ps-3">
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/manila-singles-tour-vacations/manila-singles-tour-schedule.html">Group Tours</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/asian_club/">Club Tours</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/order-form/introductions-order-form.html">One-on-one Introductions</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="fw-medium d-flex align-items-center gap-2 fs-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                    Service Options We Offer
+                </h3>
+                <ul class="list-group shadow-none mb-0 ps-3">
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/phone_translation/">Virtual Phone / Video Translation</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/execu/professional-matchmaker-plan.html">Executive Plan Package</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/order-form/imbra-order-form.html">IMBRA Request</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/visa/visa-kit.shtml">Fiancee Visa Kit</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="col">
+                <h3 class="fw-medium d-flex align-items-center gap-2 fs-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg>
+                    Media & Client Testimonials
+                </h3>
+                <ul class="list-group shadow-none mb-0 ps-3">
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/manila-women-videos/">Tour Videos</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/manila-women-videos/testimonial-videos.html">Testimonial Videos</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/manila-women-videos/informational-videos.html">Informational Videos</a>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <a class="link-secondary" href="/blog/">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>

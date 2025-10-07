@@ -1,0 +1,58 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="script" href="/members/scripts/lp_track.min.js">
+<link rel="preload" as="script" href="/invar/ssi-common/jscript/jquery.min.js">
+<link rel="preload" as="script" href="/jscripts/ddaccordion.min.js">
+<link rel="preload" as="script" href="/invar/ssi-common/jscript/framework.min.js">
+<link rel="preload" as="script" href="/invar/ssi-common/jscript/memcatch.js">
+<link rel="preload" as="script" href="/jscripts/slider-js-css/masterslider.min.js">
+<link rel="preload" as="style" href="/invar/ssi-common/register.min.css">
+<link rel="preload" href="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" as="script">
+<link rel="preload" href="/members/scripts/quick_register.js?rv=37" as="script">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js?v=5.3.3" as="script" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+<link rel="preload" href="/imagemaps/js/instant-page.min.js" as="script">
+<link rel="preload" href="/imagemaps/js/updateSelectEthnicityRegion.js" as="script">
+<link rel="preload" href="https://afarkas.github.io/lazysizes/lazysizes.min.js?v=5.3.2" as="script">
+<link rel="preload" as="font" href="https://fonts.gstatic.com/s/quicksand/v36/6xKtdSZaM9iE8KbpRA_hK1QN.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href=" /fonts/CenturyGothic-Bold.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href=" /fonts/CenturyGothic.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://fonts.gstatic.com/s/josefinsans/v33/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2" type="font/woff2" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap" as="style">
+<link rel="modulepreload" href="/imagemaps/js/toggle-mega-menu.min.js">
+<link rel="modulepreload" href="/imagemaps/js/togglesidebarmenu.min.js">
+<link rel="modulepreload" href="/imagemaps/js/toggle-mega-menu-for-show-hide-nav.min.js">
+<link rel="preload" as="style" href="/cache-compression-test.php?file=/imagemaps/st_site.min.css.br">
+<link rel="preload" as="style" href="/cache-compression-test.php?file=/imagemaps/framework.min.css.br">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199505902-1"></script>
+<script async>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-199505902-1');
+</script>
+<script src="/members/scripts/lp_track.min.js" async></script>
+<script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+<script src="/jscripts/ddaccordion.min.js"></script>
+<script src="/invar/ssi-common/jscript/framework.min.js"></script>
+
+<link rel="preload" fetchpriority="high" as="image" href=" /img/manila-women-logo.webp" type="image/webp">
+<!-------------------------floating components---------------------------------------------->
+<link rel="stylesheet preconnect preload" as="style"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css?v=5.3.2"
+    integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet preconnect preload" as="style"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<link rel="stylesheet preconnect preload" as="style"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet preload" as="style" TYPE="text/css" href="/jscripts/slider-js-css/masterslider.min.css">
+<link rel="stylesheet preload" as="style" TYPE="text/css" href="/jscripts/slider-js-css/style.css">
+<!-- <link href="/imagemaps/framework.min.css" rel="stylesheet preload" as="style" type="text/css"> -->
+<link href="/cache-compression-test.php?file=/imagemaps/framework.min.css.br" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/cache-compression-test.php?file=/imagemaps/st_site.min.css.br" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet preload" as="style" href="/imagemaps/css/style-v3.min.css">
+<link rel="stylesheet preload" as="style" href="/imagemaps/css/quick-search-modal.min.css">

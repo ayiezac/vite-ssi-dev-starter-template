@@ -1,0 +1,6 @@
+<header>
+  <!--#include virtual="/imagemaps/desktop-nav.shtml"  -->
+  <!--#include virtual="/imagemaps/mobile-nav.shtml"  -->
+</header>
+<!--c#include virtual="/imagemaps/show-hide-nav.shtml"  -->
+<main>

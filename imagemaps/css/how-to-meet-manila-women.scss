@@ -1,0 +1,418 @@
+$primary-color: #4248b2;
+.figure.img-center img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+body {
+    h1 {
+        text-align: center !important;
+        font-size: 32px;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+}
+
+.register-area-form {
+    .register-form {
+        background: none !important;
+
+        .login-footer2 {
+            /* padding: 0; */
+            padding: 20px 0 30px 0 !important;
+            text-align: center;
+            font-size: 18px;
+            border-bottom: #4248b238 solid 1px;
+        }
+    }
+}
+
+.howto-heading {
+    display: flex;
+    border-bottom: #7176c5 solid 1px;
+
+    h2 {
+        flex-flow: row;
+        flex: 20%;
+        color: hwb(236 44% 23%);
+        border-radius: 20px;
+        text-align: center;
+        background: #fff;
+        padding: 15px 0;
+    }
+
+    p {
+        flex-flow: row;
+        flex: 80%;
+        line-height: normal !important;
+        align-self: center;
+        padding: 3px 20px;
+        margin-bottom: 0px !important;
+    }
+}
+
+.howto-active {
+    cursor: pointer;
+    background: #4248b20f;
+    border: #4248b2 solid 1px;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: max-content;
+    padding-top: 0px !important;
+
+    h2 {
+        flex: 20%;
+        color: #0c1d32;
+        border: #0c1d32 solid 1px;
+        border-radius: 10px;
+        text-align: center;
+        background: #4095fd29;
+        padding: 15px 0;
+    }
+}
+
+.howto-main {
+    margin-top: 30px;
+
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
+
+    .row {
+        &:nth-child(2) {
+            border: $primary-color solid 1px;
+        }
+    }
+
+    .col-md-4 {
+        padding: 0 20px 5px 20px;
+    }
+
+    .step1-text {
+        p {
+            line-height: 1.8em !important;
+            margin-bottom: 20px;
+        }
+
+        .list-group {
+            border: #ffffff solid 1px;
+            margin-bottom: 30px;
+            font-size: 16px;
+
+            li {
+                padding: 0 15px;
+                margin-left: 0px;
+            }
+
+            .active {
+                padding: 10px 20px;
+                margin-left: 0px !important;
+                text-align: center;
+                background: #0c1d32 !important;
+                color: #fff !important;
+            }
+        }
+    }
+
+    .step2-text {
+        opacity: .5;
+
+        p {
+
+            line-height: 1.8em !important;
+            margin: 20px;
+        }
+    }
+
+    .step2-cta {
+        width: 100%;
+        text-align: center;
+        color: #fff !important;
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+        a {
+            padding: 20px 10px;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+    .step3-text {
+        opacity: .5;
+
+        p {
+            line-height: 1.8em !important;
+            margin: 20px;
+        }
+
+        legend {
+            margin-bottom: 0px !important;
+            border: none !important;
+        }
+
+        .card {
+            border: transparent;
+            margin-bottom: 20px;
+
+            ul {
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.howto-mobile {
+    @media screen and (max-width: 992px) {
+        margin-top: 35px;
+    }
+
+    .step2-cta {
+        width: 100%;
+        text-align: center;
+        color: #fff !important;
+        margin-top: 50px;
+        margin-bottom: 40px;
+
+        a {
+            padding: 20px 10px;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+    .list-group {
+        @media screen and (max-width: 992px) {
+            width: 100%;
+        }
+    }
+
+    .card {
+        @media screen and (max-width: 992px) {
+            margin-bottom: 22px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .content-flex.midcontarea {
+        margin-top: 5rem !important;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .step2-text,
+    .step3-text {
+        opacity: 1;
+    }
+
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.hover-inactive {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background: none;
+
+}
+
+
+.hover-active {
+    border: #4248b2 solid 1px !important;
+    border-radius: 20px !important;
+}
+
+
+.step-inactive {
+    background: none !important;
+    color: #7176c5 !important;
+    border: none !important;
+}
+
+
+
+.howto-step:hover .step2-text,
+.howto-step:hover .step3-text {
+    opacity: 1;
+}
+
+
+i.fa-solid.fa-star {
+    margin-right: 5px;
+}
+
+.step1-text .list-group {
+    margin-left: 0px;
+}
+
+.captcha-info>.row>.offset-lg-3.col-lg-9.pull-right {
+    width: 100%;
+    margin-left: 0;
+}
+
+
+
+/***************STEPS MOBILE ACCORDION STYLE***************/
+
+
+.panel-title-row {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+
+}
+
+.step {
+    width: 70px;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center !important;
+    background: #DBE7F5;
+    /*change to your desi$primary-color bg color*/
+    transition: all .5s;
+    outline: 2px solid #0C1D32;
+    /*change to your desi$primary-color border color*/
+    color: #0C1D32;
+    /*change to your desi$primary-color color*/
+    padding: 15px 7px;
+}
+
+.step-text {
+
+    font-size: 15px;
+    padding-left: 46px;
+    padding-top: 5px;
+    color: #2D2E34;
+    /*change to your desi$primary-color color*/
+    padding-inline: 2px !important;
+}
+
+.panel-default {
+    border-color: transparent;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+
+    &.panel-default {
+        margin-bottom: 10px;
+
+        &>.panel-heading {
+            color: #333;
+            background-color: transparent;
+            border-color: transparent;
+            padding: 0;
+        }
+    }
+}
+
+.panel-title {
+    padding: 10px 8px;
+    border-radius: 3px;
+
+}
+
+.panel-group .panel-heading+.panel-collapse .panel-body {
+    border-top: 0px solid #ddd;
+}
+
+.panel-group .panel:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.panel-heading .panel-title a:focus,
+.panel-heading .panel-title a:hover {
+    text-decoration: none;
+}
+
+
+/*************START OF STYLE USED WITH JAVASCRIPT**********/
+
+/**to devs incharge-- change the bg-color and color according to your site color palette if you want **/
+
+.howto-mobile-active-heading {
+    background-color: #0C1D32 !important;
+
+}
+
+
+.howto-mobile-active-title {
+    color: #DBE7F5 !important;
+}
+
+
+
+
+.howto-mobile-active-step {
+    background: #4248b2 !important;
+    color: #DBE7F5 !important;
+}
+
+
+.howto-mobile-inactive-step {
+    color: #4248b2 !important;
+
+    outline: 2px solid transparent !important;
+    background: transparent !important;
+}
+
+
+
+.howto-active-mobile {
+    outline: 1px solid #4248b2;
+    background-color: #FAF7F3 !important;
+}
+
+#bottom-cta-nav-mobile-top {
+    display: none !important;
+}
+
+/*************END OF  STYLE USED WITH JAVASCRIPT**********/
+
+
+/************END OF  STEP MOBILE ACCORDION STYLE***************/
+
+
+/************START OF MEDIA QUERIES*****************/
+
+
+
+
+
+@media screen and (min-width: 993px) {
+    .howto-mobile {
+        display: none;
+    }
+
+    label.col-lg-3.control-label {
+        width: 25%;
+    }
+
+}
+
+.img-caption {
+    &.img-center {
+        img {
+            width: 100%;
+            display: block;
+            margin: auto;
+        }
+    }
+}
